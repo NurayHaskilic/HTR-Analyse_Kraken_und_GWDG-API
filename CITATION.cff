@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Wenn Sie diese Software nutzen, zitieren Sie sie bitte wie folgt."
+title: "HTR Analyse Kraken: Handschriftenerkennung und Begriffssuche für römische Notarskursive"
+type: software
+authors:
+  - given-names: Nuray
+    family-names: Haskilic
+    affiliation: "Georg-August-Universität Göttingen"
+repository-code: "https://github.com/NurayHaskilic/HTR-Analyse_Kraken_und_GWDG-API/"
+license: MIT
+date-released: 2026-10-24
+keywords:
+  - HTR
+  - Kraken
+  - CATMuS
+  - Paläographie
+  - Digital Humanities
+  - Notarskursive

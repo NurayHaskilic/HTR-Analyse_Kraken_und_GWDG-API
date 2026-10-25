@@ -1,0 +1,28 @@
+# --- Zugangsdaten (NIEMALS hochladen) ---
+.env
+
+# --- Daten: Bilder, Transkriptionen, Ergebnisse ---
+daten/bilder/*
+daten/transkriptionen/*
+daten/ergebnisse/*
+!daten/**/.gitkeep
+
+# --- Kraken-Modelle (groß, eigene Lizenz) ---
+modelle/*
+!modelle/.gitkeep
+*.mlmodel
+*.safetensors
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# --- Betriebssystem und Editoren ---
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
