@@ -47,7 +47,7 @@ flowchart LR
 - für die Begriffssuche ein API-Schlüssel für GWDG Chat AI (kostenlos für Angehörige teilnehmender Einrichtungen mit Academic-Cloud-Konto)
 
 
-#### Virtuelle Umgebung
+    #### Virtuelle Umgebung
 
 Kraken und die übrigen Pakete werden in einer virtuellen Umgebung installiert. Das ist ein eigener Ordner (`venv`), in dem nur die Pakete für dieses Projekt liegen. Die Umgebung ist in Python bereits enthalten und muss nicht extra installiert werden.
 
@@ -65,7 +65,7 @@ Ist die Umgebung aktiv, steht `(venv)` am Anfang der Zeile im Terminal. Bei jede
 .\venv\Scripts\activate
 ```
 
-#### Modell
+    #### Modell
 
 Verwendet wird **CATMuS Medieval 1.6.0**, ein Kraken-Modell für mittelalterliche Handschriften in Latein, Altfranzösisch, Spanisch und Italienisch.
 
@@ -73,7 +73,7 @@ Verwendet wird **CATMuS Medieval 1.6.0**, ein Kraken-Modell für mittelalterlich
 2. Die Datei als `catmus-medieval-1.6.0.mlmodel` in den Ordner `modelle/` legen.
 
 
-### API-Schlüssel hinterlegen
+    #### API-Schlüssel hinterlegen
 
 Den Schlüssel bekommt man über das Buchungsformular der GWDG bzw. von KISSKI (siehe [Dokumentation von Chat AI](https://docs.hpc.gwdg.de/services/ai-services/chat-ai/)). Dann:
 
