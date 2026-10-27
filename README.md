@@ -173,6 +173,8 @@ Alle Einstellungen stehen jeweils oben im Skript.
 
 Da Chat AI eine OpenAI-kompatible Schnittstelle anbietet, lässt sich `suche.py` mit geänderter `url` auch mit anderen kompatiblen Anbietern nutzen.
 
+## Modelle, die nicht gepasst haben 
+folgt
 
 ## Zitieren
 
